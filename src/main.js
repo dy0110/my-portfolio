@@ -9,7 +9,8 @@ import {
   faLaptopCode,
   faFileAlt,
   faLaptop,
-  faCodeBranch
+  faCodeBranch,
+  faExternalLinkAlt
 } from "@fortawesome/free-solid-svg-icons"; // 使うアイコンを都度ダウンロードする
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
@@ -28,6 +29,7 @@ library.add(
   faFileAlt,
   faLaptop,
   faCodeBranch,
+  faExternalLinkAlt,
   faGithub
 );
 Vue.component("font-awesome-icon", FontAwesomeIcon);

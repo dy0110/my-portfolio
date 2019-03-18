@@ -11,7 +11,15 @@
               <b-loading :is-full-page="true" :active.sync="isLoading" :can-cancel="true"></b-loading>
             </div>
             <div v-else class="columns is-multiline">
-              <repositori-item></repositori-item>
+              <repositori-item
+                v-for="(item, index) in repoItems"
+                :key="index"
+                v-bind:repoUrl="item.html_url"
+              >
+                <p slot="repo_title">{{ item.name }}</p>
+                <p slot="repo_description">{{ item.description }}</p>
+                <button slot="repo_language" class="button is-info is-rounded">{{ item.language }}</button>
+              </repositori-item>
             </div>
           </div>
         </div>
@@ -23,7 +31,6 @@
 <script>
 import RepositoriItem from "../components/RepositoriItem";
 import axios from "axios";
-import { error } from "util";
 
 export default {
   components: {
@@ -40,11 +47,11 @@ export default {
     axios
       .get("https://api.github.com/users/dy0110/repos?per_page=100")
       .then(response => {
-        console.log(response);
-        this.repoItems = response;
+        console.log(response.data);
+        this.repoItems = response.data;
       })
       .catch(error => {
-        console.log("GitHubAPI Error !");
+        console.log("GitHubAPI Error !:" + error);
       })
       .then(() => {
         this.isLoading = false;

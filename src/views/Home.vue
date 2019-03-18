@@ -7,7 +7,7 @@
             <h1 class="title">
               <font-awesome-icon :icon="['fas', 'laptop']"/>&nbsp;Daichi Yoshida's PortForio
             </h1>
-            <h2 class="subtitle">このサイトは駆け出しプログラマーの Yoshida Daichi のポートフォリオです。
+            <h2 class="subtitle">このサイトは Yoshida Daichi のポートフォリオです。
               <br>Vue.js + VueRouter + Buefy + axios で構築されています。
             </h2>
           </div>
