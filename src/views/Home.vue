@@ -4,8 +4,12 @@
       <section class="hero">
         <div class="hero-body">
           <div class="container">
-            <h1 class="title">Daichi Yoshida's PortForioへようこそ</h1>
-            <h2 class="subtitle">何か書く<br>何か書く</h2>
+            <h1 class="title">
+              <font-awesome-icon :icon="['fas', 'laptop']"/>&nbsp;Daichi Yoshida's PortForio
+            </h1>
+            <h2 class="subtitle">このサイトは駆け出しプログラマーの Yoshida Daichi のポートフォリオです。
+              <br>Vue.js + VueRouter + Buefy + axios で構築されています。
+            </h2>
           </div>
         </div>
       </section>

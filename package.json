@@ -15,6 +15,7 @@
     "axios": "^0.18.0",
     "buefy": "^0.7.3",
     "vue": "^2.6.6",
+    "vue-rate": "^2.2.0",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
