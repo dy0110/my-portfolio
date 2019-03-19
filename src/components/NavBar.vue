@@ -4,7 +4,10 @@
       <div class="navbar-brand">
         <div class="navbar-item">
           <h1 class="has-text-white">
-            <font-awesome-icon :icon="['fas', 'user-alt']" size="lg"/>&nbsp;Daichi Yoshida's PortForio
+            <font-awesome-icon
+              :icon="['fas', 'user-alt']"
+              size="lg"
+            />&nbsp;Daichi Yoshida's PortForio
           </h1>
         </div>
         <div
@@ -24,11 +27,21 @@
         :class="{ 'is-active': menuActive }"
       >
         <div class="navbar-start">
-          <router-link class="navbar-item has-text-white" to="/">Home</router-link>
-          <router-link class="navbar-item has-text-white" to="/profile">Profile</router-link>
-          <router-link class="navbar-item has-text-white" to="/skill">Skill</router-link>
-          <router-link class="navbar-item has-text-white" to="/repositories">Repositories</router-link>
-          <router-link class="navbar-item has-text-white" to="/contact">Contact</router-link>
+          <router-link class="navbar-item has-text-white" to="/"
+            >Home</router-link
+          >
+          <router-link class="navbar-item has-text-white" to="/profile"
+            >Profile</router-link
+          >
+          <router-link class="navbar-item has-text-white" to="/skill"
+            >Skill</router-link
+          >
+          <router-link class="navbar-item has-text-white" to="/repositories"
+            >Repositories</router-link
+          >
+          <router-link class="navbar-item has-text-white" to="/contact"
+            >Contact</router-link
+          >
         </div>
         <div class="navbar-end"></div>
       </div>

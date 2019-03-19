@@ -9,12 +9,23 @@
       <div class="card-content">
         <div class="content">
           <slot name="skill_content"></slot>
-          <br><slot name="skill_history"></slot>
+          <br /><slot name="skill_history"></slot>
         </div>
       </div>
       <footer class="card-footer">
         <div class="card-footer-item">
-          <rate :length="5" :value="rateValue" :readonly="true" :ratedesc="['自信なし', '勉強中', '基本はわかる', '自信あり', '完璧']" />
+          <rate
+            :length="5"
+            :value="rateValue"
+            :readonly="true"
+            :ratedesc="[
+              '自信なし',
+              '勉強中',
+              '基本はわかる',
+              '自信あり',
+              '完璧'
+            ]"
+          />
         </div>
       </footer>
     </div>
@@ -23,10 +34,8 @@
 
 <script>
 export default {
-  props:{
+  props: {
     rateValue: Number
   }
-}
+};
 </script>
-
-

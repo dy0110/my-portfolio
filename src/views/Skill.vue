@@ -4,13 +4,21 @@
       <section class="hero">
         <div class="hero-body">
           <h1 class="title">
-            <font-awesome-icon :icon="['fas', 'laptop-code']"/>&nbsp;&nbsp;スキル一覧
+            <font-awesome-icon
+              :icon="['fas', 'laptop-code']"
+            />&nbsp;&nbsp;スキル一覧
           </h1>
           <div class="container">
             <div class="columns is-multiline">
-              <skill-item v-for="(item, index) in itemList" :key="index" :rateValue="item.skillLevel">
+              <skill-item
+                v-for="(item, index) in itemList"
+                :key="index"
+                :rateValue="item.skillLevel"
+              >
                 <p slot="skill_title">{{ item.skil }}</p>
-                <div style="white-space: pre-line" slot="skill_content">{{ item.content }}</div>
+                <div style="white-space: pre-line" slot="skill_content">
+                  {{ item.content }}
+                </div>
                 <div slot="skill_history">使用歴:{{ item.usageHistory }}</div>
               </skill-item>
             </div>
@@ -73,25 +81,29 @@ export default {
         },
         {
           skil: "Vue.js",
-          content: "jQueryの開発で不満を感じることが多くなり、新しいフレームワークを学ぶ目的で勉強を始めました。\nこのサイトを作る際にも利用しています。",
+          content:
+            "jQueryの開発で不満を感じることが多くなり、新しいフレームワークを学ぶ目的で勉強を始めました。\nこのサイトを作る際にも利用しています。",
           usageHistory: "6か月",
           skillLevel: 3
         },
         {
           skil: "Java",
-          content: "入社時の研修と最初の業務で扱いました。\n最近はほとんど触れておらず自信がありません。",
+          content:
+            "入社時の研修と最初の業務で扱いました。\n最近はほとんど触れておらず自信がありません。",
           usageHistory: "6か月",
           skillLevel: 1
         },
         {
           skil: "Git",
-          content: "職場では始めてGitを使った案件に取り組んでいます。\nSourceTreeやVScode上でのGitの操作が行えます。しかし、コマンドラインでの経験はありません。",
+          content:
+            "職場では始めてGitを使った案件に取り組んでいます。\nSourceTreeやVScode上でのGitの操作が行えます。しかし、コマンドラインでの経験はありません。",
           usageHistory: "6か月",
           skillLevel: 3
         },
         {
           skil: "Bluma",
-          content: "個人的に開発するときによく使っています\n本サイトのCSSフレームワークとしても利用しています。",
+          content:
+            "個人的に開発するときによく使っています\n本サイトのCSSフレームワークとしても利用しています。",
           usageHistory: "3か月",
           skillLevel: 3
         },

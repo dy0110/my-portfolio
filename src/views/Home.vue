@@ -5,10 +5,12 @@
         <div class="hero-body">
           <div class="container">
             <h1 class="title">
-              <font-awesome-icon :icon="['fas', 'laptop']"/>&nbsp;&nbsp;Daichi Yoshida's PortForio
+              <font-awesome-icon :icon="['fas', 'laptop']" />&nbsp;&nbsp;Daichi
+              Yoshida's PortForio
             </h1>
-            <h2 class="subtitle">このサイトは Yoshida Daichi のポートフォリオです。
-              <br>Vue.js + VueRouter + Buefy + axios で構築されています。
+            <h2 class="subtitle">
+              このサイトは Yoshida Daichi のポートフォリオです。 <br />Vue.js +
+              VueRouter + Buefy + axios で構築されています。
             </h2>
           </div>
         </div>
