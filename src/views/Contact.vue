@@ -15,7 +15,7 @@
                     <p>
                       <font-awesome-icon
                         :icon="['fas', 'envelope']"
-                      />&nbsp;&nbsp;メアド書く
+                      />&nbsp;&nbsp;dyoshida57.dev
                       <font-awesome-icon :icon="['fas', 'at']" />gmail.com
                     </p>
                   </div>
@@ -39,7 +39,11 @@
                         label="Instagram(趣味アカ)はこちら"
                         class="is-info"
                       >
-                        <a href target="_blank" class="has-text-info">
+                        <a
+                          href="https://www.instagram.com/d.y.0110.barcelona/"
+                          target="_blank"
+                          class="has-text-info"
+                        >
                           <font-awesome-icon
                             :icon="['fab', 'instagram']"
                             size="lg"

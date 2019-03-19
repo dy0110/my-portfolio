@@ -15,7 +15,8 @@
                   <div class="media-left">
                     <figure class="image is-96x96">
                       <img
-                        src="../assets/noImage.png"
+                        class="is-rounded"
+                        src="../assets/myIcon.png"
                         alt="Placeholder image"
                       />
                     </figure>
