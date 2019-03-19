@@ -9,8 +9,8 @@
         </div>
         <div
           class="navbar-burger burger"
-          v-bind:class="{ 'is-active': menuActive }"
-          v-on:click="menuToggle()"
+          :class="{ 'is-active': menuActive }"
+          @click="menuToggle()"
           data-target="navbar_menu"
         >
           <span></span>
@@ -21,13 +21,14 @@
       <div
         id="navbar_menu"
         class="navbar-menu has-background-info"
-        v-bind:class="{ 'is-active': menuActive }"
+        :class="{ 'is-active': menuActive }"
       >
         <div class="navbar-start">
           <router-link class="navbar-item has-text-white" to="/">Home</router-link>
           <router-link class="navbar-item has-text-white" to="/profile">Profile</router-link>
           <router-link class="navbar-item has-text-white" to="/skill">Skill</router-link>
           <router-link class="navbar-item has-text-white" to="/repositories">Repositories</router-link>
+          <router-link class="navbar-item has-text-white" to="/contact">Contact</router-link>
         </div>
         <div class="navbar-end"></div>
       </div>

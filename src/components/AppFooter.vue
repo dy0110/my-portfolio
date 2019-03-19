@@ -1,16 +1,10 @@
 <template>
   <div>
-    <footer class="footer has-background-white">
+    <footer class="footer has-background-grey-lighter">
       <div class="content has-text-left">
-        <!-- <button class="button is-black is-large is-rounded"><font-awesome-icon :icon="['fab', 'github']" class="icon alt"/></button> -->
-        <a href="https://github.com/dy0110" target="_blank" title="GitHub" class="has-text-dark">
-          <font-awesome-icon :icon="['fab', 'github']" class="icon alt" size="10x"/>
-        </a>
+        <p>Made with  by <a href="https://github.com/dy0110" target="_blank" class="has-text-info">dy0110</a></p>
+        <p>The source code of this site is licensed under <a href="https://opensource.org/licenses/mit-license.php" target="_blank" class="has-text-info">MIT</a>.</p>
       </div>
     </footer>
   </div>
 </template>
-
-<script>
-export default {};
-</script>

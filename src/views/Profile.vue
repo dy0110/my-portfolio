@@ -4,7 +4,7 @@
       <section class="hero">
         <div class="hero-body">
           <h1 class="title">
-            <font-awesome-icon :icon="['fas', 'file-alt']"/>&nbsp;プロフィール
+            <font-awesome-icon :icon="['fas', 'file-alt']"/>&nbsp;&nbsp;プロフィール
           </h1>
           <div class="container">
             <div class="card">

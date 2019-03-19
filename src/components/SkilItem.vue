@@ -14,20 +14,19 @@
       </div>
       <footer class="card-footer">
         <div class="card-footer-item">
-          <slot name="rate_skill"></slot>
+          <rate :length="5" :value="rateValue" :readonly="true" :ratedesc="['自信なし', '勉強中', '基本はわかる', '自信あり', '完璧']" />
         </div>
       </footer>
     </div>
   </div>
 </template>
 
-<style>
-.card{
-  display: flex;
-  flex-direction: column;
+<script>
+export default {
+  props:{
+    rateValue: Number
+  }
 }
-.card-footer{
-  margin-top: auto;
-}
-</style>
+</script>
+
 

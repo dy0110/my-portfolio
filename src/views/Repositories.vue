@@ -4,7 +4,7 @@
       <section class="hero">
         <div class="hero-body">
           <h1 class="title">
-            <font-awesome-icon :icon="['fas', 'code-branch']"/>&nbsp;Git Hubリポジトリ一覧
+            <font-awesome-icon :icon="['fas', 'code-branch']"/>&nbsp;&nbsp;Git Hubリポジトリ一覧
           </h1>
           <div class="container">
             <div v-if="repoItems.length === 0">
@@ -14,10 +14,10 @@
               <repositori-item
                 v-for="(item, index) in repoItems"
                 :key="index"
-                v-bind:repoUrl="item.html_url"
+                :repoUrl="item.html_url"
+                :repoDescription="item.description"
               >
                 <p slot="repo_title">{{ item.name }}</p>
-                <p slot="repo_description">{{ item.description }}</p>
                 <button slot="repo_language" class="button is-info is-rounded">{{ item.language }}</button>
               </repositori-item>
             </div>
@@ -43,15 +43,22 @@ export default {
     };
   },
   created() {
-    // TODO axiosを使ってGitHubAPIを叩く
+    //axiosを使ってGitHubAPIを叩く
     axios
       .get("https://api.github.com/users/dy0110/repos?per_page=100")
       .then(response => {
         console.log(response.data);
         this.repoItems = response.data;
+        this.$toast.open({
+                    message: `データを取得しました`
+                })
       })
       .catch(error => {
         console.log("GitHubAPI Error !:" + error);
+        this.$toast.open({
+                    message: `データの取得に失敗しました`,
+                    type: 'is-danger'
+                })
       })
       .then(() => {
         this.isLoading = false;

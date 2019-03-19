@@ -4,6 +4,7 @@ import Home from "./views/Home.vue";
 import Profile from "./views/Profile.vue";
 import Skill from "./views/Skill.vue";
 import Repositories from "./views/Repositories.vue";
+import Contact from "./views/Contact";
 
 Vue.use(Router);
 
@@ -28,6 +29,11 @@ export default new Router({
       path: "/repositories",
       name: "repositories",
       component: Repositories
+    },
+    {
+      path: "/contact",
+      name: "contact",
+      component: Contact
     },
     {
       // 上記以外のURLのパスが与えられたとき

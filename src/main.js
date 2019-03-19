@@ -10,9 +10,11 @@ import {
   faFileAlt,
   faLaptop,
   faCodeBranch,
-  faExternalLinkAlt
+  faExternalLinkAlt,
+  faAt,
+  faEnvelope
 } from "@fortawesome/free-solid-svg-icons"; // 使うアイコンを都度ダウンロードする
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import rate from "vue-rate";
 
@@ -30,7 +32,10 @@ library.add(
   faLaptop,
   faCodeBranch,
   faExternalLinkAlt,
-  faGithub
+  faAt,
+  faEnvelope,
+  faGithub,
+  faInstagram
 );
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 
