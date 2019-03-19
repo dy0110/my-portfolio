@@ -11,7 +11,9 @@ I created my own portfolio.
 ## Description
 
 Because I wanted to gain experience in building a website using Vue.js, I created my own portfolio. It is an image like the following.
+
 ![alt](./img/2019-03-19_155904.jpg)
+
 It also implements routing using Vue-Router.
 I also created a page to retrieve and display my repository list using axios.
 It will be hosted on Netlify.
