@@ -1,6 +1,8 @@
 # my-portfolio
 自分用のポートフォリオを作成しました。
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c07fd2bd-a6f8-468c-ae26-c1cb26a41746/deploy-status)](https://app.netlify.com/sites/dydev-portfolio-b176b1/deploys)
+
 ## 目次
 
 - [説明](#説明)
@@ -16,7 +18,8 @@ Vue.jsを使ってWebサイトを構築する経験を積みたかったので�
 
 Vue-Routerを使ったルーティングも実装しています。  
 また、axiosを使って自分のリポジトリ一覧を取得して表示するページも作成しました。  
-Netlify上でホスティングする予定です。
+~~Netlify上でホスティングする予定です。~~  
+Netlifyでホスティングしました。サイトは[こちら](https://dydev-portfolio-b176b1.netlify.com/#/)。
 
 ## 依存関係
 
