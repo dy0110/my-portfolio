@@ -17,12 +17,16 @@ import {
 import { faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import rate from "vue-rate";
+import VueMatchHeights from "vue-match-heights";
 
 // Buefy連携
 Vue.use(Buefy);
 
 // vue-rate連携
 Vue.use(rate);
+
+// vue-match-heights連携
+Vue.use(VueMatchHeights);
 
 // Fontawsome連携
 library.add(

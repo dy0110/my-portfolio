@@ -7726,6 +7726,11 @@ vue-loader@^15.6.4:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
+vue-match-heights@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/vue-match-heights/-/vue-match-heights-0.1.1.tgz#cffbacac0c9596f4844eddd29601e26aea021767"
+  integrity sha512-EQkLUuCIG30kMx/tCPumLH1s/o1i2g+GydKINQ84q6AggBFHW9ug0yKI1HcWWrdXvVO5NBHYZ76+lxUuoaJI1g==
+
 vue-rate@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/vue-rate/-/vue-rate-2.2.0.tgz#dd151f296eda725411e74dd1c3d0ade14eb22589"

@@ -9,7 +9,18 @@
             />&nbsp;&nbsp;スキル一覧
           </h1>
           <div class="container">
-            <div class="columns is-multiline">
+            <div
+              class="columns is-multiline"
+              v-match-heights="{
+                el: [
+                  '.column',
+                  '.card',
+                  '.card-header',
+                  '.card-content',
+                  '.card-footer'
+                ]
+              }"
+            >
               <skill-item
                 v-for="(item, index) in itemList"
                 :key="index"

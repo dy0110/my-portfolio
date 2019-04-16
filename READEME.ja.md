@@ -27,6 +27,7 @@ Netlify上でホスティングする予定です。
 * axios 0.18.0
 * vue-fontawesome 0.1.5
 * vue-rate 2.2.0
+* * vue-match-heights 0.1.1
 
 ## インストール
 
