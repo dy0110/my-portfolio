@@ -1,6 +1,8 @@
 # my-portfolio
 I created my own portfolio. 
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c07fd2bd-a6f8-468c-ae26-c1cb26a41746/deploy-status)](https://app.netlify.com/sites/dydev-portfolio-b176b1/deploys)
+
 ## Table of Contents
 
   - [Description](#description)
@@ -16,7 +18,8 @@ Because I wanted to gain experience in building a website using Vue.js, I create
 
 It also implements routing using Vue-Router.
 I also created a page to retrieve and display my repository list using axios.
-It will be hosted on Netlify.
+~~It will be hosted on Netlify.~~
+Hosted on Netlify. Site is [here](https://dydev-portfolio-b176b1.netlify.com/#/).
 
 ## Requirements
 
