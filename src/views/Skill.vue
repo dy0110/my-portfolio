@@ -86,7 +86,7 @@ export default {
         {
           skil: "Node.js",
           content:
-            "Cordovaを利用するために勉強をしました。\n本を購入しExpress + ejsテンプレート + SQLite の組み合わせで動作するアプリケーションを作りました。",
+            "Cordovaを利用するために勉強をしました。\n初めにExpressを使ったテストアプリを作製しました。\nnpmやyarnを使ったパッケージ管理や、Vue Cli の利用等でよく使っています。",
           usageHistory: "1年半",
           skillLevel: 2
         },
@@ -119,6 +119,13 @@ export default {
           skillLevel: 3
         },
         {
+          skil: "Firebase",
+          content:
+            "Cordova上のアプリケーションにプッシュ通知を組み込むために利用しました。\n次にWebサイトにプッシュ通知を組み込みました。\n他のサービスも機会を見て利用したいと考えています。",
+          usageHistory: "6か月",
+          skillLevel: 2
+        },
+         {
           skil: "TypeScript",
           content:
             "学習を始めたばかりです。\nVueに導入した際の記法の情報を集め、簡単なサンプルを作製しました。",
@@ -129,6 +136,19 @@ export default {
           skil: "React",
           content:
             "Reactで運用されてるサービスも多い印象を受けるため、学習を始めました。\ncreate-react-appを使用して基本的な部分を学習しています。\nVue.jsに取り組んでいたおかげで大きな混乱もなく進みそうだと感じています。",
+          usageHistory: "1か月",
+          skillLevel: 1
+        },
+        {
+          skil: "Dart",
+          content: "Flutterを動かすために学習中です。",
+          usageHistory: "1か月",
+          skillLevel: 1
+        },
+        {
+          skil: "PWA",
+          content:
+            "Cordovaで開発した経験がある程度活かせるのではないかと考えています。\n経験としては、Webサイトにプッシュ通知を組み込む際にサービスワーカーを定義したがあります。\nまた、Vue CLiのPWAテンプレートを使って動作するものを構築し、Chorome上でテストを行いました。",
           usageHistory: "1か月",
           skillLevel: 1
         }
