@@ -114,15 +114,23 @@ export default {
         {
           skil: "Bluma",
           content:
-            "個人的に開発するときによく使っています\n本サイトのCSSフレームワークとしても利用しています。",
+            "個人的に開発するときによく使っています。\n本サイトのCSSフレームワークとしても利用しています。",
           usageHistory: "3か月",
           skillLevel: 3
         },
         {
-          skil: "TypeScript ",
-          content: "学習を始めたばかりです。",
-          usageHistory: "1か月",
+          skil: "TypeScript",
+          content:
+            "学習を始めたばかりです。\nVueに導入した際の記法の情報を集め、簡単なサンプルを作製しました。",
+          usageHistory: "2か月",
           skillLevel: 2
+        },
+        {
+          skil: "React",
+          content:
+            "Reactで運用されてるサービスも多い印象を受けるため、学習を始めました。\ncreate-react-appを使用して基本的な部分を学習しています。\nVue.jsに取り組んでいたおかげで大きな混乱もなく進みそうだと感じています。",
+          usageHistory: "1か月",
+          skillLevel: 1
         }
       ]
     };
