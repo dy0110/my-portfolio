@@ -67,7 +67,7 @@ export default {
           content:
             "現在の業務で継続的に使用しています。\nBootstrapと組み合わせた表示部分のコントロールやajaxを使ったサーバーへのリクエストを実装しました。",
           usageHistory: "2年",
-          skillLevel: 4
+          skillLevel: 3
         },
         {
           skil: "Cordova",
